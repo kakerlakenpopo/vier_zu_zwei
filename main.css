@@ -1,0 +1,201 @@
+@import url("https://use.typekit.net/tnx7axi.css");
+
+  @font-face { font-family: 'avenir_light';
+    src: url('font/inter/Inter-Light-BETA.woff') format('woff'); }
+  @font-face { font-family: 'avenir_medium';
+    src: url('font/inter/Inter-Medium.woff') format('woff'); }
+  @font-face { font-family: 'avenir_book';
+    src: url('font/inter/Inter-Regular.woff') format('woff'); }
+
+
+img { width: 100%; height: auto }
+
+body{
+    background-color: #ffffff; /*br:ececec orangerot: f15a40  dark blue: 0B2D33, 0d363d*/
+    margin: 0;
+}
+
+body>div{
+    height: 100%;
+    width: auto;
+}
+body>div:nth-child(1){
+    background-color: #d3c8db;
+}
+body>div:nth-child(1):hover{
+    background-color: #ffe291;
+}
+body>div:nth-child(2){
+    background-color: #828d46;
+    padding: 5em;
+
+}
+body>div:nth-child(3){
+    background-color: #3c3c3b;
+    align-content: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.portraits{
+    display:flex;
+    width:1200px;
+    justify-content: left;
+    align-items: flex-end;
+}
+.portraits>div{
+    margin-right: 2em;
+}
+.portraits>div>img{
+    width: 200px;
+    height: auto;
+    opacity: .7;
+    filter: contrast(1.5);
+}
+
+.gallery{
+    width:1200px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    justify-items: center;
+    padding: 2em;
+}
+.gallery>img{
+    width: 350px;
+    height: 350px;
+}
+
+a{
+    font-family: 'avenir_medium';
+    text-decoration: none;
+    color: #000000;
+    font-size: 60px;
+}
+a:hover,.portraits>div>a:hover{
+    opacity: 50%;
+}
+p{
+    font-family: 'avenir_book';
+    font-size: 80px;
+  }
+.portraits>div>a{
+    font-family: 'avenir_book';
+    font-size: 20px;
+  }
+
+  .portraits>div>a{
+    writing-mode: vertical-lr; 
+  }
+
+
+
+
+
+
+
+.textindex{
+    padding: .5em;
+    font-family: 'avenir_medium';
+    width: 320px;
+    text-align: left;
+    color: #555555;
+    line-height: 1.2;
+  }
+html {
+  line-height: 1;
+}
+
+header{
+  padding: 0em 1em 0 2em;
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+}
+h1 {
+    margin-top: 0;
+  font-family: 'stratos';
+  font-size: 50px;
+  color: #FFB725; /*dunkelblau 165762  hellblau:5b999e  gelb:f29e00*/
+}
+.desktop{
+    display:block;
+}
+.mobil{
+    display:none;
+}
+h2{
+  font-family: 'avenir_book';
+}
+h3{
+    font-family: 'avenir_book';
+    margin: .3em 0;
+    font-size: 16px;
+}
+header a{
+  font-family: 'avenir_medium';
+  
+  font-size: 20px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu-collapsible {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 5px;
+  text-align: left;
+  outline: none;
+  background-color: transparent;
+}
+.menu-items, .menu-link {
+  text-decoration-color: #3c3c3b;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.menu-collapsible a:hover, .menu-link a:hover, .menu-items>a:hover{
+  background: -webkit-repeating-linear-gradient(#ffffff00, #ffffff00 65%, #FFB725 60.1%, #FFB725 100%);
+  text-decoration-color: #FFB725;
+  border-bottom: 2px solid #FFB725;
+}
+.underline{
+  background: -webkit-repeating-linear-gradient(#ffffff00, #ffffff00 65%, #FFB725 60.1%, #FFB725 100%);
+  text-decoration-color: #FFB725;
+  border-bottom: 2px solid #FFB725;
+}
+.collapsibleItems {
+  padding: 0 20px;
+  display: block;
+  overflow: hidden;
+  background-color: transparent;
+}
+.einschub{
+  padding: 5px 20px;
+  background-color: transparent;
+}
+
+
+.main_projects p{
+  color:#555555;
+}
+.overlay .text{
+    margin: .5em 0 0em .5em;
+}
+
+.text{
+  margin: 1em 0 1em 0;
+  font-family: 'avenir_medium';
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.2;
+}
+
